@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synonym-Finder</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+  <link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+
+<body>
+  <div class="title"> <img class="titleimg" src="img/icon.png"> Synonym-Finder</div>
+  <div class="inputfield">
+    <input type="text" id="searchQuery" onkeyup="key(event)" placeholder="Synonym eingeben..." >
+    <button onclick="getSynonyms()"><img class="titleimg" src="img/icon.png"></button>
+  </div>
+  
+
+
+  <div id="container"></div>
+  <div onclick="scrollToTop()" id="goupcontainer" class="goupcontainer d-none">
+    <img src="img/arrowup.png">
+  </div>
+
+
+
+</body>
+
+</html>
